@@ -46,16 +46,16 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="BILL.cs">
+    <Compile Include="Interface\BILL.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="BILL.designer.cs">
+    <Compile Include="Interface\BILL.designer.cs">
       <DependentUpon>BILL.cs</DependentUpon>
     </Compile>
-    <Compile Include="BILL_INFO.cs">
+    <Compile Include="Interface\BILL_INFO.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="BILL_INFO.designer.cs">
+    <Compile Include="Interface\BILL_INFO.designer.cs">
       <DependentUpon>BILL_INFO.cs</DependentUpon>
     </Compile>
     <Compile Include="Coffee_ShopDataSet.Designer.cs">
@@ -63,60 +63,60 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>Coffee_ShopDataSet.xsd</DependentUpon>
     </Compile>
-    <Compile Include="DatabaseMenu.cs">
+    <Compile Include="Interface\DatabaseMenu.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="DatabaseMenu.Designer.cs">
+    <Compile Include="Interface\DatabaseMenu.Designer.cs">
       <DependentUpon>DatabaseMenu.cs</DependentUpon>
     </Compile>
-    <Compile Include="Employee.cs">
+    <Compile Include="Interface\Employee.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Employee.designer.cs">
+    <Compile Include="Interface\Employee.designer.cs">
       <DependentUpon>Employee.cs</DependentUpon>
     </Compile>
-    <Compile Include="Inventory_info_Interface.cs">
+    <Compile Include="Interface\Inventory_info_Interface.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Inventory_info_Interface.Designer.cs">
+    <Compile Include="Interface\Inventory_info_Interface.Designer.cs">
       <DependentUpon>Inventory_info_Interface.cs</DependentUpon>
     </Compile>
-    <Compile Include="Inventory_Interface.cs">
+    <Compile Include="Interface\Inventory_Interface.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Inventory_Interface.Designer.cs">
+    <Compile Include="Interface\Inventory_Interface.Designer.cs">
       <DependentUpon>Inventory_Interface.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="RealTime_Inventory_Interface.cs">
+    <Compile Include="Interface\RealTime_Inventory_Interface.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="RealTime_Inventory_Interface.Designer.cs">
+    <Compile Include="Interface\RealTime_Inventory_Interface.Designer.cs">
       <DependentUpon>RealTime_Inventory_Interface.cs</DependentUpon>
     </Compile>
-    <Compile Include="Supplier.cs">
+    <Compile Include="Interface\Supplier.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Supplier.designer.cs">
+    <Compile Include="Interface\Supplier.designer.cs">
       <DependentUpon>Supplier.cs</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="BILL.resx">
+    <EmbeddedResource Include="Interface\BILL.resx">
       <DependentUpon>BILL.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="BILL_INFO.resx">
+    <EmbeddedResource Include="Interface\BILL_INFO.resx">
       <DependentUpon>BILL_INFO.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="DatabaseMenu.resx">
+    <EmbeddedResource Include="Interface\DatabaseMenu.resx">
       <DependentUpon>DatabaseMenu.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Employee.resx">
+    <EmbeddedResource Include="Interface\Employee.resx">
       <DependentUpon>Employee.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Inventory_info_Interface.resx">
+    <EmbeddedResource Include="Interface\Inventory_info_Interface.resx">
       <DependentUpon>Inventory_info_Interface.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Inventory_Interface.resx">
+    <EmbeddedResource Include="Interface\Inventory_Interface.resx">
       <DependentUpon>Inventory_Interface.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
@@ -128,10 +128,10 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="RealTime_Inventory_Interface.resx">
+    <EmbeddedResource Include="Interface\RealTime_Inventory_Interface.resx">
       <DependentUpon>RealTime_Inventory_Interface.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Supplier.resx">
+    <EmbeddedResource Include="Interface\Supplier.resx">
       <DependentUpon>Supplier.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Coffee_ShopDataSet.xsc">
