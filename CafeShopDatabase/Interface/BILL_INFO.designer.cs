@@ -40,10 +40,10 @@
             this.pl_Input = new System.Windows.Forms.Panel();
             this.txtQuantity = new System.Windows.Forms.TextBox();
             this.txtItem_Id = new System.Windows.Forms.TextBox();
-            this.label4 = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
+            this.LB_Quantity = new System.Windows.Forms.Label();
+            this.LB_Item_ID = new System.Windows.Forms.Label();
             this.txtBill_Id = new System.Windows.Forms.TextBox();
-            this.label3 = new System.Windows.Forms.Label();
+            this.Lb_Bill_ID = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.dgvBill_Info)).BeginInit();
@@ -146,10 +146,10 @@
             // 
             this.pl_Input.Controls.Add(this.txtQuantity);
             this.pl_Input.Controls.Add(this.txtItem_Id);
-            this.pl_Input.Controls.Add(this.label4);
-            this.pl_Input.Controls.Add(this.label5);
+            this.pl_Input.Controls.Add(this.LB_Quantity);
+            this.pl_Input.Controls.Add(this.LB_Item_ID);
             this.pl_Input.Controls.Add(this.txtBill_Id);
-            this.pl_Input.Controls.Add(this.label3);
+            this.pl_Input.Controls.Add(this.Lb_Bill_ID);
             this.pl_Input.Controls.Add(this.label2);
             this.pl_Input.Location = new System.Drawing.Point(12, 39);
             this.pl_Input.Name = "pl_Input";
@@ -170,25 +170,25 @@
             this.txtItem_Id.Size = new System.Drawing.Size(340, 22);
             this.txtItem_Id.TabIndex = 7;
             // 
-            // label4
+            // LB_Quantity
             // 
-            this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(14, 109);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(93, 25);
-            this.label4.TabIndex = 6;
-            this.label4.Text = "Quantity";
+            this.LB_Quantity.AutoSize = true;
+            this.LB_Quantity.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.LB_Quantity.Location = new System.Drawing.Point(14, 109);
+            this.LB_Quantity.Name = "LB_Quantity";
+            this.LB_Quantity.Size = new System.Drawing.Size(93, 25);
+            this.LB_Quantity.TabIndex = 6;
+            this.LB_Quantity.Text = "Quantity";
             // 
-            // label5
+            // LB_Item_ID
             // 
-            this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(14, 63);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(77, 25);
-            this.label5.TabIndex = 4;
-            this.label5.Text = "Item Id";
+            this.LB_Item_ID.AutoSize = true;
+            this.LB_Item_ID.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.LB_Item_ID.Location = new System.Drawing.Point(14, 63);
+            this.LB_Item_ID.Name = "LB_Item_ID";
+            this.LB_Item_ID.Size = new System.Drawing.Size(77, 25);
+            this.LB_Item_ID.TabIndex = 4;
+            this.LB_Item_ID.Text = "Item Id";
             // 
             // txtBill_Id
             // 
@@ -197,15 +197,15 @@
             this.txtBill_Id.Size = new System.Drawing.Size(340, 22);
             this.txtBill_Id.TabIndex = 2;
             // 
-            // label3
+            // Lb_Bill_ID
             // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(14, 16);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(65, 25);
-            this.label3.TabIndex = 1;
-            this.label3.Text = "Bill Id";
+            this.Lb_Bill_ID.AutoSize = true;
+            this.Lb_Bill_ID.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Lb_Bill_ID.Location = new System.Drawing.Point(14, 16);
+            this.Lb_Bill_ID.Name = "Lb_Bill_ID";
+            this.Lb_Bill_ID.Size = new System.Drawing.Size(65, 25);
+            this.Lb_Bill_ID.TabIndex = 1;
+            this.Lb_Bill_ID.Text = "Bill Id";
             // 
             // label2
             // 
@@ -266,12 +266,12 @@
         private System.Windows.Forms.Button btnAdd;
         private System.Windows.Forms.Button btnReload;
         private System.Windows.Forms.Panel pl_Input;
-        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.Label LB_Item_ID;
         private System.Windows.Forms.TextBox txtBill_Id;
-        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Label Lb_Bill_ID;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Label LB_Quantity;
         private System.Windows.Forms.TextBox txtQuantity;
         private System.Windows.Forms.TextBox txtItem_Id;
     }
