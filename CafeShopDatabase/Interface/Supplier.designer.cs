@@ -41,13 +41,13 @@
             this.txtSupplier_Phone_Number = new System.Windows.Forms.TextBox();
             this.txtSupplier_Address = new System.Windows.Forms.TextBox();
             this.txtSupplier_Name = new System.Windows.Forms.TextBox();
-            this.label8 = new System.Windows.Forms.Label();
-            this.label7 = new System.Windows.Forms.Label();
+            this.LbEmail = new System.Windows.Forms.Label();
+            this.LbPhoneNumber = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
+            this.LbAddress = new System.Windows.Forms.Label();
+            this.LbName = new System.Windows.Forms.Label();
             this.txtSupplier_Id = new System.Windows.Forms.TextBox();
-            this.label3 = new System.Windows.Forms.Label();
+            this.LbSupplierID = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.dgvSupplier)).BeginInit();
@@ -141,13 +141,13 @@
             this.pl_Input.Controls.Add(this.txtSupplier_Phone_Number);
             this.pl_Input.Controls.Add(this.txtSupplier_Address);
             this.pl_Input.Controls.Add(this.txtSupplier_Name);
-            this.pl_Input.Controls.Add(this.label8);
-            this.pl_Input.Controls.Add(this.label7);
+            this.pl_Input.Controls.Add(this.LbEmail);
+            this.pl_Input.Controls.Add(this.LbPhoneNumber);
             this.pl_Input.Controls.Add(this.label6);
-            this.pl_Input.Controls.Add(this.label5);
-            this.pl_Input.Controls.Add(this.label4);
+            this.pl_Input.Controls.Add(this.LbAddress);
+            this.pl_Input.Controls.Add(this.LbName);
             this.pl_Input.Controls.Add(this.txtSupplier_Id);
-            this.pl_Input.Controls.Add(this.label3);
+            this.pl_Input.Controls.Add(this.LbSupplierID);
             this.pl_Input.Controls.Add(this.label2);
             this.pl_Input.Location = new System.Drawing.Point(22, 48);
             this.pl_Input.Name = "pl_Input";
@@ -182,25 +182,25 @@
             this.txtSupplier_Name.Size = new System.Drawing.Size(484, 22);
             this.txtSupplier_Name.TabIndex = 8;
             // 
-            // label8
+            // LbEmail
             // 
-            this.label8.AutoSize = true;
-            this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label8.Location = new System.Drawing.Point(9, 203);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(65, 25);
-            this.label8.TabIndex = 7;
-            this.label8.Text = "Email";
+            this.LbEmail.AutoSize = true;
+            this.LbEmail.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.LbEmail.Location = new System.Drawing.Point(9, 203);
+            this.LbEmail.Name = "LbEmail";
+            this.LbEmail.Size = new System.Drawing.Size(65, 25);
+            this.LbEmail.TabIndex = 7;
+            this.LbEmail.Text = "Email";
             // 
-            // label7
+            // LbPhoneNumber
             // 
-            this.label7.AutoSize = true;
-            this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.Location = new System.Drawing.Point(9, 155);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(155, 25);
-            this.label7.TabIndex = 6;
-            this.label7.Text = "Phone Number";
+            this.LbPhoneNumber.AutoSize = true;
+            this.LbPhoneNumber.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.LbPhoneNumber.Location = new System.Drawing.Point(9, 155);
+            this.LbPhoneNumber.Name = "LbPhoneNumber";
+            this.LbPhoneNumber.Size = new System.Drawing.Size(155, 25);
+            this.LbPhoneNumber.TabIndex = 6;
+            this.LbPhoneNumber.Text = "Phone Number";
             // 
             // label6
             // 
@@ -210,25 +210,25 @@
             this.label6.Size = new System.Drawing.Size(0, 16);
             this.label6.TabIndex = 5;
             // 
-            // label5
+            // LbAddress
             // 
-            this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(9, 104);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(92, 25);
-            this.label5.TabIndex = 4;
-            this.label5.Text = "Address";
+            this.LbAddress.AutoSize = true;
+            this.LbAddress.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.LbAddress.Location = new System.Drawing.Point(9, 104);
+            this.LbAddress.Name = "LbAddress";
+            this.LbAddress.Size = new System.Drawing.Size(92, 25);
+            this.LbAddress.TabIndex = 4;
+            this.LbAddress.Text = "Address";
             // 
-            // label4
+            // LbName
             // 
-            this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(4, 60);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(80, 25);
-            this.label4.TabIndex = 3;
-            this.label4.Text = " Name ";
+            this.LbName.AutoSize = true;
+            this.LbName.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.LbName.Location = new System.Drawing.Point(4, 60);
+            this.LbName.Name = "LbName";
+            this.LbName.Size = new System.Drawing.Size(80, 25);
+            this.LbName.TabIndex = 3;
+            this.LbName.Text = " Name ";
             // 
             // txtSupplier_Id
             // 
@@ -237,15 +237,15 @@
             this.txtSupplier_Id.Size = new System.Drawing.Size(484, 22);
             this.txtSupplier_Id.TabIndex = 2;
             // 
-            // label3
+            // LbSupplierID
             // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(4, 9);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(116, 25);
-            this.label3.TabIndex = 1;
-            this.label3.Text = "Supplier Id";
+            this.LbSupplierID.AutoSize = true;
+            this.LbSupplierID.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.LbSupplierID.Location = new System.Drawing.Point(4, 9);
+            this.LbSupplierID.Name = "LbSupplierID";
+            this.LbSupplierID.Size = new System.Drawing.Size(116, 25);
+            this.LbSupplierID.TabIndex = 1;
+            this.LbSupplierID.Text = "Supplier Id";
             // 
             // label2
             // 
@@ -308,13 +308,13 @@
         private System.Windows.Forms.TextBox txtSupplier_Phone_Number;
         private System.Windows.Forms.TextBox txtSupplier_Address;
         private System.Windows.Forms.TextBox txtSupplier_Name;
-        private System.Windows.Forms.Label label8;
-        private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.Label LbEmail;
+        private System.Windows.Forms.Label LbPhoneNumber;
         private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Label LbAddress;
+        private System.Windows.Forms.Label LbName;
         private System.Windows.Forms.TextBox txtSupplier_Id;
-        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Label LbSupplierID;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
     }

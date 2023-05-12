@@ -75,6 +75,12 @@
     <Compile Include="Interface\Employee.designer.cs">
       <DependentUpon>Employee.cs</DependentUpon>
     </Compile>
+    <Compile Include="Interface\Ingredient.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Interface\Ingredient.designer.cs">
+      <DependentUpon>Ingredient.cs</DependentUpon>
+    </Compile>
     <Compile Include="Interface\Inventory_info_Interface.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -86,6 +92,24 @@
     </Compile>
     <Compile Include="Interface\Inventory_Interface.Designer.cs">
       <DependentUpon>Inventory_Interface.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Interface\item.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Interface\item.designer.cs">
+      <DependentUpon>item.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Interface\SupplyPurchaseInfo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Interface\SupplyPurchaseInfo.designer.cs">
+      <DependentUpon>SupplyPurchaseInfo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Interface\Supply_Purchase.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Interface\Supply_Purchase.designer.cs">
+      <DependentUpon>Supply_Purchase.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -113,11 +137,23 @@
     <EmbeddedResource Include="Interface\Employee.resx">
       <DependentUpon>Employee.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Interface\Ingredient.resx">
+      <DependentUpon>Ingredient.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Interface\Inventory_info_Interface.resx">
       <DependentUpon>Inventory_info_Interface.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Interface\Inventory_Interface.resx">
       <DependentUpon>Inventory_Interface.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Interface\item.resx">
+      <DependentUpon>item.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Interface\SupplyPurchaseInfo.resx">
+      <DependentUpon>SupplyPurchaseInfo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Interface\Supply_Purchase.resx">
+      <DependentUpon>Supply_Purchase.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
