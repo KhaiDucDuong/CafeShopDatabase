@@ -41,13 +41,13 @@
             this.dtpEmployee_Date_Join = new System.Windows.Forms.DateTimePicker();
             this.txtEmployee_Last_Name = new System.Windows.Forms.TextBox();
             this.txtEmployee_First_Name = new System.Windows.Forms.TextBox();
-            this.label8 = new System.Windows.Forms.Label();
-            this.label7 = new System.Windows.Forms.Label();
+            this.LbDateLeft = new System.Windows.Forms.Label();
+            this.LbDateJoin = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
+            this.LbLastName = new System.Windows.Forms.Label();
+            this.LbFirstName = new System.Windows.Forms.Label();
             this.txtEmployee_Id = new System.Windows.Forms.TextBox();
-            this.label3 = new System.Windows.Forms.Label();
+            this.Lb_EmployeeID = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.dgvEmployee)).BeginInit();
@@ -148,13 +148,13 @@
             this.pl_Input.Controls.Add(this.dtpEmployee_Date_Join);
             this.pl_Input.Controls.Add(this.txtEmployee_Last_Name);
             this.pl_Input.Controls.Add(this.txtEmployee_First_Name);
-            this.pl_Input.Controls.Add(this.label8);
-            this.pl_Input.Controls.Add(this.label7);
+            this.pl_Input.Controls.Add(this.LbDateLeft);
+            this.pl_Input.Controls.Add(this.LbDateJoin);
             this.pl_Input.Controls.Add(this.label6);
-            this.pl_Input.Controls.Add(this.label5);
-            this.pl_Input.Controls.Add(this.label4);
+            this.pl_Input.Controls.Add(this.LbLastName);
+            this.pl_Input.Controls.Add(this.LbFirstName);
             this.pl_Input.Controls.Add(this.txtEmployee_Id);
-            this.pl_Input.Controls.Add(this.label3);
+            this.pl_Input.Controls.Add(this.Lb_EmployeeID);
             this.pl_Input.Controls.Add(this.label2);
             this.pl_Input.Location = new System.Drawing.Point(12, 39);
             this.pl_Input.Name = "pl_Input";
@@ -196,26 +196,26 @@
             this.txtEmployee_First_Name.Size = new System.Drawing.Size(484, 22);
             this.txtEmployee_First_Name.TabIndex = 8;
             // 
-            // label8
+            // LbDateLeft
             // 
-            this.label8.AutoSize = true;
-            this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label8.Location = new System.Drawing.Point(9, 204);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(99, 25);
-            this.label8.TabIndex = 7;
-            this.label8.Text = "Date Left";
+            this.LbDateLeft.AutoSize = true;
+            this.LbDateLeft.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.LbDateLeft.Location = new System.Drawing.Point(9, 204);
+            this.LbDateLeft.Name = "LbDateLeft";
+            this.LbDateLeft.Size = new System.Drawing.Size(99, 25);
+            this.LbDateLeft.TabIndex = 7;
+            this.LbDateLeft.Text = "Date Left";
             // 
-            // label7
+            // LbDateJoin
             // 
-            this.label7.AutoSize = true;
-            this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.Location = new System.Drawing.Point(4, 155);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(104, 25);
-            this.label7.TabIndex = 6;
-            this.label7.Text = "Date Join";
-            this.label7.Click += new System.EventHandler(this.label7_Click);
+            this.LbDateJoin.AutoSize = true;
+            this.LbDateJoin.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.LbDateJoin.Location = new System.Drawing.Point(4, 155);
+            this.LbDateJoin.Name = "LbDateJoin";
+            this.LbDateJoin.Size = new System.Drawing.Size(104, 25);
+            this.LbDateJoin.TabIndex = 6;
+            this.LbDateJoin.Text = "Date Join";
+            this.LbDateJoin.Click += new System.EventHandler(this.label7_Click);
             // 
             // label6
             // 
@@ -225,26 +225,26 @@
             this.label6.Size = new System.Drawing.Size(0, 16);
             this.label6.TabIndex = 5;
             // 
-            // label5
+            // LbLastName
             // 
-            this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(4, 105);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(115, 25);
-            this.label5.TabIndex = 4;
-            this.label5.Text = "Last Name";
+            this.LbLastName.AutoSize = true;
+            this.LbLastName.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.LbLastName.Location = new System.Drawing.Point(4, 105);
+            this.LbLastName.Name = "LbLastName";
+            this.LbLastName.Size = new System.Drawing.Size(115, 25);
+            this.LbLastName.TabIndex = 4;
+            this.LbLastName.Text = "Last Name";
             // 
-            // label4
+            // LbFirstName
             // 
-            this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(4, 58);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(122, 25);
-            this.label4.TabIndex = 3;
-            this.label4.Text = "First Name ";
-            this.label4.Click += new System.EventHandler(this.label4_Click);
+            this.LbFirstName.AutoSize = true;
+            this.LbFirstName.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.LbFirstName.Location = new System.Drawing.Point(4, 58);
+            this.LbFirstName.Name = "LbFirstName";
+            this.LbFirstName.Size = new System.Drawing.Size(122, 25);
+            this.LbFirstName.TabIndex = 3;
+            this.LbFirstName.Text = "First Name ";
+            this.LbFirstName.Click += new System.EventHandler(this.label4_Click);
             // 
             // txtEmployee_Id
             // 
@@ -253,15 +253,15 @@
             this.txtEmployee_Id.Size = new System.Drawing.Size(484, 22);
             this.txtEmployee_Id.TabIndex = 2;
             // 
-            // label3
+            // Lb_EmployeeID
             // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(4, 9);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(131, 25);
-            this.label3.TabIndex = 1;
-            this.label3.Text = "Employee Id";
+            this.Lb_EmployeeID.AutoSize = true;
+            this.Lb_EmployeeID.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Lb_EmployeeID.Location = new System.Drawing.Point(4, 9);
+            this.Lb_EmployeeID.Name = "Lb_EmployeeID";
+            this.Lb_EmployeeID.Size = new System.Drawing.Size(131, 25);
+            this.Lb_EmployeeID.TabIndex = 1;
+            this.Lb_EmployeeID.Text = "Employee Id";
             // 
             // label2
             // 
@@ -322,14 +322,14 @@
         private System.Windows.Forms.Button btnReload;
         private System.Windows.Forms.Panel pl_Input;
         private System.Windows.Forms.TextBox txtEmployee_Id;
-        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Label Lb_EmployeeID;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.Label LbLastName;
+        private System.Windows.Forms.Label LbFirstName;
+        private System.Windows.Forms.Label LbDateJoin;
         private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.Label label8;
+        private System.Windows.Forms.Label LbDateLeft;
         private System.Windows.Forms.DateTimePicker dtpEmployee_Date_Left;
         private System.Windows.Forms.DateTimePicker dtpEmployee_Date_Join;
         private System.Windows.Forms.TextBox txtEmployee_Last_Name;

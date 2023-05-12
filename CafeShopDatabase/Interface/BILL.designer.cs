@@ -31,9 +31,9 @@
             this.label1 = new System.Windows.Forms.Label();
             this.pl_Input = new System.Windows.Forms.Panel();
             this.dtpBill_Created_At = new System.Windows.Forms.DateTimePicker();
-            this.label5 = new System.Windows.Forms.Label();
+            this.Lb_CreatedAt = new System.Windows.Forms.Label();
             this.txtBill_Id = new System.Windows.Forms.TextBox();
-            this.label3 = new System.Windows.Forms.Label();
+            this.Lb_Bill_ID = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.btnDelete = new System.Windows.Forms.Button();
             this.btnCancel = new System.Windows.Forms.Button();
@@ -63,9 +63,9 @@
             // pl_Input
             // 
             this.pl_Input.Controls.Add(this.dtpBill_Created_At);
-            this.pl_Input.Controls.Add(this.label5);
+            this.pl_Input.Controls.Add(this.Lb_CreatedAt);
             this.pl_Input.Controls.Add(this.txtBill_Id);
-            this.pl_Input.Controls.Add(this.label3);
+            this.pl_Input.Controls.Add(this.Lb_Bill_ID);
             this.pl_Input.Controls.Add(this.label2);
             this.pl_Input.Location = new System.Drawing.Point(12, 48);
             this.pl_Input.Name = "pl_Input";
@@ -85,16 +85,16 @@
             this.dtpBill_Created_At.TabIndex = 5;
             this.dtpBill_Created_At.ValueChanged += new System.EventHandler(this.dateTimePicker1_ValueChanged);
             // 
-            // label5
+            // Lb_CreatedAt
             // 
-            this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(19, 69);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(116, 25);
-            this.label5.TabIndex = 4;
-            this.label5.Text = "Created At";
-            this.label5.Click += new System.EventHandler(this.label5_Click);
+            this.Lb_CreatedAt.AutoSize = true;
+            this.Lb_CreatedAt.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Lb_CreatedAt.Location = new System.Drawing.Point(19, 69);
+            this.Lb_CreatedAt.Name = "Lb_CreatedAt";
+            this.Lb_CreatedAt.Size = new System.Drawing.Size(116, 25);
+            this.Lb_CreatedAt.TabIndex = 4;
+            this.Lb_CreatedAt.Text = "Created At";
+            this.Lb_CreatedAt.Click += new System.EventHandler(this.label5_Click);
             // 
             // txtBill_Id
             // 
@@ -104,16 +104,16 @@
             this.txtBill_Id.TabIndex = 2;
             this.txtBill_Id.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
-            // label3
+            // Lb_Bill_ID
             // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(19, 13);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(65, 25);
-            this.label3.TabIndex = 1;
-            this.label3.Text = "Bill Id";
-            this.label3.Click += new System.EventHandler(this.label3_Click);
+            this.Lb_Bill_ID.AutoSize = true;
+            this.Lb_Bill_ID.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Lb_Bill_ID.Location = new System.Drawing.Point(19, 13);
+            this.Lb_Bill_ID.Name = "Lb_Bill_ID";
+            this.Lb_Bill_ID.Size = new System.Drawing.Size(65, 25);
+            this.Lb_Bill_ID.TabIndex = 1;
+            this.Lb_Bill_ID.Text = "Bill Id";
+            this.Lb_Bill_ID.Click += new System.EventHandler(this.label3_Click);
             // 
             // label2
             // 
@@ -250,9 +250,9 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Panel pl_Input;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Label Lb_Bill_ID;
         private System.Windows.Forms.TextBox txtBill_Id;
-        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.Label Lb_CreatedAt;
         private System.Windows.Forms.DateTimePicker dtpBill_Created_At;
         private System.Windows.Forms.Button btnDelete;
         private System.Windows.Forms.Button btnCancel;
