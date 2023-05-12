@@ -53,6 +53,7 @@
             this.DatabaseListBox.Name = "DatabaseListBox";
             this.DatabaseListBox.Size = new System.Drawing.Size(200, 180);
             this.DatabaseListBox.TabIndex = 1;
+            this.DatabaseListBox.SelectedIndexChanged += new System.EventHandler(this.DatabaseListBox_SelectedIndexChanged);
             // 
             // CoffeeShopLb
             // 
