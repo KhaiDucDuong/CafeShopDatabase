@@ -39,6 +39,13 @@ namespace CafeShopDatabase
                             this.Hide();
                             break;
                         }
+                    case "Supply purchase":
+                        {
+                            Supply_Purchase curForm = new Supply_Purchase();
+                            curForm.Show();
+                            this.Hide();
+                            break;
+                        }
                     case "Employee":
                         {
                             Employee curForm = new Employee();
@@ -49,6 +56,20 @@ namespace CafeShopDatabase
                     case "Supplier":
                         {
                             Supplier curForm = new Supplier();
+                            curForm.Show();
+                            this.Hide();
+                            break;
+                        }
+                    case "Ingredient":
+                        {
+                            Ingredient curForm = new Ingredient();
+                            curForm.Show();
+                            this.Hide();
+                            break;
+                        }
+                    case "Item":
+                        {
+                            item curForm = new item();
                             curForm.Show();
                             this.Hide();
                             break;

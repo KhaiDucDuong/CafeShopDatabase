@@ -48,7 +48,8 @@
             "Supply purchase",
             "Employee",
             "Supplier",
-            "Ingredient"});
+            "Ingredient",
+            "Item"});
             this.DatabaseListBox.Location = new System.Drawing.Point(17, 101);
             this.DatabaseListBox.Name = "DatabaseListBox";
             this.DatabaseListBox.Size = new System.Drawing.Size(200, 180);
