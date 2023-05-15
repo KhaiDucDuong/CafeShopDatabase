@@ -12,9 +12,9 @@ namespace CafeShopDatabase.ADO.NET_classes.BL
     internal class BL_item
     {
         string databaseName = "item";
-        string primaryKeyCol = "itemID";
-        string secondCol = "itemName";
-        string thirdCol = "itemPrice";
+        string primaryKeyCol = "item_id";
+        string secondCol = "item_name";
+        string thirdCol = "item_price";
 
         DB_Main db = null;
         public BL_item() 
@@ -22,29 +22,33 @@ namespace CafeShopDatabase.ADO.NET_classes.BL
             db = new DB_Main();
         }
 
-        public DataSet getItem()
+        //get all the data (rows) in Item table
+        public DataSet getData()
         {
             return db.ExecuteQueryDataSet("select * from " + databaseName, CommandType.Text);
         }
 
-        public bool addItem(string itemID, string itemName, string itemPrice, ref string error)
+        //add a new row to Item table
+        public bool addNewRow(string itemID, string itemName, string itemPrice, ref string error)
         {
             string sqlString = "INSERT INTO " + databaseName +
                 " VALUES (" + itemID + ", N'" + itemName + "', " + itemPrice + ")"; 
             return db.MyExecuteNonQuery(sqlString, CommandType.Text, ref error);
         }
 
-        public bool removeItem(string itemID, ref string error) 
+        //remove a row in Item table that has a specified itemID
+        public bool removeRow(string itemID, ref string error) 
         {
-            string sqlString = "DELETE FROM " + databaseName + "WHERE " + primaryKeyCol + " = " + itemID;
+            string sqlString = "DELETE FROM " + databaseName + " WHERE " + primaryKeyCol + " = " + itemID;
             return db.MyExecuteNonQuery(sqlString, CommandType.Text, ref error);
         }
 
-        public bool updateItem(string itemID, string itemName, string itemPrice, ref string error)
+        //update a row in Item table that has a specified itemID
+        public bool updateRow(string itemID, string itemName, string itemPrice, ref string error)
         {
             string sqlString = "UPDATE " + databaseName + 
-                "SET " + secondCol + " = N'" + itemName + ", " + thirdCol + " = " + itemPrice +
-                "WHERE " + primaryKeyCol + " = " + itemID;
+                " SET " + secondCol + " = N'" + itemName + "', " + thirdCol + " = " + itemPrice +
+                "WHERE " + primaryKeyCol + " = '" + itemID + "'";
             return db.MyExecuteNonQuery(sqlString, CommandType.Text, ref error);
         }
     }
