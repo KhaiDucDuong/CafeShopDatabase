@@ -46,6 +46,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ADO.NET classes\BL\BL_item.cs" />
     <Compile Include="ADO.NET classes\DB\DB_Main.cs" />
     <Compile Include="Interface\BILL.cs">
       <SubType>Form</SubType>
@@ -195,8 +196,6 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="ADO.NET classes\BL\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
