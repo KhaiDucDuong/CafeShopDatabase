@@ -38,12 +38,12 @@
             this.item_priceLb = new System.Windows.Forms.Label();
             this.item_idTB = new System.Windows.Forms.TextBox();
             this.Item_NameLB = new System.Windows.Forms.Label();
-            this.panel1 = new System.Windows.Forms.Panel();
+            this.InputPanel = new System.Windows.Forms.Panel();
             this.itemPriceTB = new System.Windows.Forms.TextBox();
             this.itemName_TB = new System.Windows.Forms.TextBox();
             this.Itemlabel = new System.Windows.Forms.Label();
             this.ItemDGV = new System.Windows.Forms.DataGridView();
-            this.panel1.SuspendLayout();
+            this.InputPanel.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.ItemDGV)).BeginInit();
             this.SuspendLayout();
             // 
@@ -162,19 +162,19 @@
             this.Item_NameLB.TabIndex = 1;
             this.Item_NameLB.Text = "Item Name:";
             // 
-            // panel1
+            // InputPanel
             // 
-            this.panel1.Controls.Add(this.itemPriceTB);
-            this.panel1.Controls.Add(this.item_priceLb);
-            this.panel1.Controls.Add(this.itemName_TB);
-            this.panel1.Controls.Add(this.Itemlabel);
-            this.panel1.Controls.Add(this.item_idTB);
-            this.panel1.Controls.Add(this.Item_NameLB);
-            this.panel1.Location = new System.Drawing.Point(13, 11);
-            this.panel1.Margin = new System.Windows.Forms.Padding(4);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(457, 167);
-            this.panel1.TabIndex = 36;
+            this.InputPanel.Controls.Add(this.itemPriceTB);
+            this.InputPanel.Controls.Add(this.item_priceLb);
+            this.InputPanel.Controls.Add(this.itemName_TB);
+            this.InputPanel.Controls.Add(this.Itemlabel);
+            this.InputPanel.Controls.Add(this.item_idTB);
+            this.InputPanel.Controls.Add(this.Item_NameLB);
+            this.InputPanel.Location = new System.Drawing.Point(13, 11);
+            this.InputPanel.Margin = new System.Windows.Forms.Padding(4);
+            this.InputPanel.Name = "InputPanel";
+            this.InputPanel.Size = new System.Drawing.Size(457, 167);
+            this.InputPanel.TabIndex = 36;
             // 
             // itemPriceTB
             // 
@@ -214,6 +214,7 @@
             this.ItemDGV.RowHeadersWidth = 51;
             this.ItemDGV.Size = new System.Drawing.Size(457, 224);
             this.ItemDGV.TabIndex = 35;
+            this.ItemDGV.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.ItemDGV_CellClick);
             // 
             // item
             // 
@@ -227,13 +228,14 @@
             this.Controls.Add(this.deleteBT);
             this.Controls.Add(this.saveBT);
             this.Controls.Add(this.editBT);
-            this.Controls.Add(this.panel1);
+            this.Controls.Add(this.InputPanel);
             this.Controls.Add(this.ItemDGV);
             this.Name = "item";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "item";
-            this.panel1.ResumeLayout(false);
-            this.panel1.PerformLayout();
+            this.Load += new System.EventHandler(this.item_Load);
+            this.InputPanel.ResumeLayout(false);
+            this.InputPanel.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.ItemDGV)).EndInit();
             this.ResumeLayout(false);
 
@@ -251,7 +253,7 @@
         private System.Windows.Forms.Label item_priceLb;
         private System.Windows.Forms.TextBox item_idTB;
         private System.Windows.Forms.Label Item_NameLB;
-        private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.Panel InputPanel;
         private System.Windows.Forms.TextBox itemPriceTB;
         private System.Windows.Forms.TextBox itemName_TB;
         private System.Windows.Forms.Label Itemlabel;
